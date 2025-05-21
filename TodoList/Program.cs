@@ -2,9 +2,9 @@
 
 class TodoList
 {
-    public static string[] taskList = new string[10];
+    public static string[] taskList = new string[10];// An Array For Storing The Tasks
     public static int taskCount = 0;
-
+    // Function For Adding Tasks
     public static void AddTask()
     {
         Console.WriteLine("Enter The Task You Want to Add");
@@ -12,7 +12,7 @@ class TodoList
         taskCount++;
         Console.WriteLine("Task Added!");
     }
-
+    // Function For Viewing Tasks
     public static void ViewTask()
     {
         for (int i = 0; i < taskCount; i++)
@@ -21,7 +21,7 @@ class TodoList
 
         }
     }
-
+    // Function For Complete a Task
     public static void CompleteTask()
     {
         Console.WriteLine("Enter The Number Of The Completed Task");
@@ -35,12 +35,12 @@ class TodoList
 
     static void Main(String[] args)
     {
-        var running = true;
+        var running = true;// A Variable For Keep Program Running While It's True.
         try
         {
 
             while (running)
-            {
+            {   // Options Of The Program
                 Console.WriteLine("Enter The Option You Want:");
                 Console.WriteLine("1) Add Task");
                 Console.WriteLine("2) View Task");
