@@ -2,13 +2,13 @@
 
 class TodoList
 {
-    public static string[] taskList = new string[10];// An Array For Storing The Tasks
+    public static List<string> taskList = new List<string>();// A List For Storing The Tasks
     public static int taskCount = 0;
     // Function For Adding Tasks
     public static void AddTask()
     {
         Console.WriteLine("Enter The Task You Want to Add");
-        taskList[taskCount] = Console.ReadLine();
+        taskList.Add(Console.ReadLine());
         taskCount++;
         Console.WriteLine("Task Added!");
     }
