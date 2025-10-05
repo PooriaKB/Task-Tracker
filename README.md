@@ -92,8 +92,3 @@ You can perform the following actions:
 - **System.Text.Json** for serialization
 - **Console interface** for interaction
 
----
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
