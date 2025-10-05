@@ -1,0 +1,81 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio
+.vs/
+.vsconfig
+
+# NuGet packages
+*.nupkg
+*.snupkg
+# The packages folder can be ignored if you restore packages before build
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Backup & temp files
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+
+# JSON task data 
+Tasks/*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Recycle Bin files
+$RECYCLE.BIN/
+
+# Build artifacts
+*.exe
+*.dll
+*.pdb
+*.app
+*.cache
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# Publish folder
+publish/
+out/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Environment files
+.env
+.env.*
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
