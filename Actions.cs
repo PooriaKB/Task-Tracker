@@ -3,7 +3,12 @@ namespace TaskTracker
 {
     public class Actions
     {
-        public static string path = @"E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\Tasks\tasks.json";
+        public static string path = Path.Combine(
+          AppContext.BaseDirectory, // bin\Debug\netX
+          @"..\..\..\",             // go up 3 levels to project root
+          "Tasks",
+          "tasks.json"
+      );
 
         public static List<Task> Tasks = new List<Task>();
         public static List<Task> TasksDone = new List<Task>();
@@ -36,6 +41,11 @@ namespace TaskTracker
                     var updatedTask = Tasks.FirstOrDefault(t => t.ID == updatedTaskId);
                     Console.WriteLine("Enter The New Task Description: ");
                     var description = Console.ReadLine();
+                    if (string.IsNullOrEmpty(description))
+                    {
+                        Console.WriteLine("Task Description Cannot Be Empty. Try Again.");
+                        return;
+                    }
                     updatedTask.Description = description;
                     updatedTask.updatedAt = DateTime.Now;
                     Console.WriteLine($"Task with ID {updatedTask.ID} Updated Successfully.");
