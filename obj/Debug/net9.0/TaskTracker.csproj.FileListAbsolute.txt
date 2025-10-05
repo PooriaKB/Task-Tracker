@@ -1,0 +1,14 @@
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\bin\Debug\net9.0\TaskTracker.exe
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\bin\Debug\net9.0\TaskTracker.deps.json
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\bin\Debug\net9.0\TaskTracker.runtimeconfig.json
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\bin\Debug\net9.0\TaskTracker.dll
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\bin\Debug\net9.0\TaskTracker.pdb
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\TaskTracker.GeneratedMSBuildEditorConfig.editorconfig
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\TaskTracker.AssemblyInfoInputs.cache
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\TaskTracker.AssemblyInfo.cs
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\TaskTracker.csproj.CoreCompileInputs.cache
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\TaskTracker.dll
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\refint\TaskTracker.dll
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\TaskTracker.pdb
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\TaskTracker.genruntimeconfig.cache
+E:\1-Programming\1-DotNet\2-ConsoleApps\TaskTracker\TaskTracker\obj\Debug\net9.0\ref\TaskTracker.dll
